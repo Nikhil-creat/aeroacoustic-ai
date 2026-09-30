@@ -25,3 +25,14 @@ button.primary{background:linear-gradient(90deg,var(--b),var(--a));color:#001018
 input[type=range]{width:100%;accent-color:#00e5ff}input:not([type]),input[type=text]{background:#0a1226;color:var(--t);border:1px solid var(--l);border-radius:10px;padding:10px;width:100%}
 .two{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}.chk{display:flex;align-items:center;gap:8px}button.danger{background:#3a0f1a;border-color:var(--r);color:#ffb3c0}
 #sp,#hc{width:100%;border-radius:10px;background:#030611}
+
+.cred{text-align:center;border-color:#00e5ff55;background:linear-gradient(160deg,#101d3a,#1a0f3a);position:relative;overflow:hidden}
+.cred:before{content:"";position:absolute;inset:-40%;background:conic-gradient(from 0deg,transparent,#00e5ff33,transparent 30%,#7c4dff33,transparent 60%);animation:spin 9s linear infinite}
+.cred>*{position:relative}@keyframes spin{to{transform:rotate(360deg)}}
+.badge{display:inline-block;font:700 10px ui-monospace,monospace;letter-spacing:3px;color:#001018;background:linear-gradient(90deg,var(--g),var(--a));padding:3px 10px;border-radius:20px}
+.name{margin:8px 0 2px;font-size:clamp(20px,6vw,34px);letter-spacing:1px;background:linear-gradient(90deg,#00e5ff,#7c4dff,#39ff88,#00e5ff);background-size:300% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:flow 6s linear infinite}
+@keyframes flow{to{background-position:300% 0}}.role{margin:0 0 10px;color:#a9bce6;font-size:13px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin:6px 0}.chips span{font-size:11px;padding:4px 10px;border-radius:20px;border:1px solid var(--l);background:#0a1226cc}
+.chips.alt span{border-color:#7c4dff88;color:#cdbfff}.links{display:flex;gap:10px;justify-content:center;margin-top:10px}
+.links a{color:#001018;background:linear-gradient(90deg,var(--b),var(--a));padding:8px 16px;border-radius:12px;font-weight:700;text-decoration:none}
+.wm{position:absolute;left:0;right:0;bottom:24px;text-align:center;font:600 10px ui-monospace,monospace;letter-spacing:2px;color:#ffffff30;pointer-events:none}

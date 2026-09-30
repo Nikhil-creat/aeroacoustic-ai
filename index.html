@@ -4,12 +4,17 @@
 <title>AeroAcoustic AI — Autonomous Speaker Health & Bio-Acoustic Suite</title>
 <meta name="author" content="NIKHIL CHARY SRIRAMOJU">
 <meta name="description" content="Agentic OPAV speaker maintenance suite. Designed and developed by NIKHIL CHARY SRIRAMOJU.">
-<meta name="theme-color" content="#050914"><link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="icons/icon.svg"><link rel="stylesheet" href="style.css">
+<meta property="og:title" content="AeroAcoustic AI — by NIKHIL CHARY SRIRAMOJU"><meta property="og:description" content="Agentic speaker health & bio-acoustic suite: Digital Twin, safety interlocks, CFD visualizer, signed health passport."><script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"AeroAcoustic AI","author":{"@type":"Person","name":"Nikhil Chary Sriramoju","sameAs":["https://github.com/Nikhil-creat","https://in.linkedin.com/in/nikhil-chary-sriramoju-95041b38a"]},"applicationCategory":"UtilitiesApplication"}</script><meta name="theme-color" content="#050914"><link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="icons/icon.svg"><link rel="stylesheet" href="style.css">
 </head><body>
 <header><div class="logo">◉ AeroAcoustic <b>AI</b> <span class="ver">v2</span></div><div class="tag">Autonomous Enterprise Speaker Health &amp; Bio-Acoustic Suite</div></header>
 <main>
-<section class="card hero"><canvas id="cfd" width="720" height="360"></canvas><div class="overlay"><span id="phase">IDLE</span><span id="freq">— Hz</span></div></section>
+<section class="card hero"><canvas id="cfd" width="720" height="360"></canvas><div class="wm">AeroAcoustic AI · NIKHIL CHARY SRIRAMOJU</div><div class="overlay"><span id="phase">IDLE</span><span id="freq">— Hz</span></div></section>
 
+<section class="card cred"><div class="badge">ENGINEERED BY</div><h1 class="name">NIKHIL CHARY SRIRAMOJU</h1>
+<p class="role">Final-year B.Tech CSE · AI / Agentic Systems · Edge-AI · Full-stack</p>
+<div class="chips"><span>Agentic AI (OPAV)</span><span>TinyML / Edge-AI</span><span>Audio DSP</span><span>Digital Twin</span><span>Zero-Trust Privacy</span><span>WebAudio · WebCrypto · PWA</span><span>Safety Interlocks</span></div>
+<div class="chips alt"><span>EcoGrid-AI</span><span>OptiMarket X</span><span>Aether Screenshot Studio</span><span>EvalForge</span><span>Veritas</span></div>
+<div class="links"><a href="https://github.com/Nikhil-creat">GitHub ↗</a><a href="https://in.linkedin.com/in/nikhil-chary-sriramoju-95041b38a">LinkedIn ↗</a></div></section>
 <section class="card session"><div class="sr"><div><h3>Cleaning session</h3><div class="timer"><span id="tAct">0</span><small>s active / <span id="tGoal">30</span>s goal · max 60s</small></div></div><div id="pct">0%</div></div>
 <div class="bar big"><i id="sBar"></i></div>
 <label>Session length <b id="sLbl">30 s</b><input type="range" id="sLen" min="10" max="60" step="5" value="30"></label></section>
@@ -25,11 +30,11 @@
 <div class="card"><h3>Wear Forecast</h3><p id="fc" class="mut">—</p><canvas id="hc" width="300" height="70"></canvas></div>
 </section>
 
-<section class="card"><h3>Bio-acoustic waterfall (60 Hz – 6 kHz)</h3><canvas id="sp" width="700" height="140"></canvas></section>
+<section class="card"><h3>Bio-acoustic waterfall (60 Hz – 20 kHz)</h3><canvas id="sp" width="700" height="140"></canvas></section>
 
 <section class="card ctl">
 <div class="two"><label>Mode<select id="mode"><option value="sim">Simulation (no audio)</option><option value="live">Live (speaker + mic)</option></select></label>
-<label>Cleaning profile<select id="cprof"><option value="standard">Standard deep clean</option><option value="water">Water ejection</option><option value="dust">Dust lift</option><option value="gentle">Gentle (wearable-safe)</option></select></label></div>
+<label>Cleaning profile<select id="cprof"><option value="standard">Standard deep clean</option><option value="water">Water ejection</option><option value="dust">Dust lift</option><option value="hyper">⚡ HYPER CLEAN (60 Hz → device limit)</option><option value="gentle">Gentle (wearable-safe)</option></select></label></div>
 <div class="two"><label>Debris scenario (sim)<select id="scenario"><option value="water">Water</option><option value="sand">Fine sand</option><option value="metal">Metallic dust</option><option value="lint">Pocket lint</option></select></label>
 <label>Speaker profile<select id="profile"><option value="phone">Smartphone</option><option value="watch">Wearable</option><option value="laptop">Laptop</option></select></label></div>
 <h3>Asset record (saved locally, included in passport)</h3>
