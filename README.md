@@ -1,7 +1,15 @@
 # AeroAcoustic AI
 Autonomous Enterprise Speaker Health & Bio-Acoustic Suite — agentic OPAV loop, Acoustic Digital Twin, thermal/excursion governor, TinyML-style classifier, CFD visualizer, signed Acoustic Health Index passport.
 
-**Designed and developed by NIKHIL CHARY SRIRAMOJU** · [GitHub](https://github.com/Nikhil-creat) · [LinkedIn](https://in.linkedin.com/in/nikhil-chary-sriramoju-95041b38a)
+*Designed and Developed by* 
+# **NIKHIL CHARY SRIRAMOJU**
+BTech CSE (Final Year)
+
+- GitHub: [Nikhil-creat](https://github.com/Nikhil-creat)
+- LinkedIn: [nikhil-chary-sriramoju](https://in.linkedin.com/in/nikhil-chary-sriramoju-95041b38a)
+- Email: sriramojunikhil66@gmail.com
+- Instagram: [@nikhil__sriramoju](https://www.instagram.com/nikhil__sriramoju)
+- Facebook: [Profile](https://www.facebook.com/profile.php?id=100079201124141)
 
 ## Deploy on GitHub Pages
 1. Extract the zip. 2. Create a repo and upload **all contents** (keep `index.html` at the repo root, include `.nojekyll`).
